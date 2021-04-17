@@ -1,7 +1,6 @@
 
 import React from "react";
 import Filter from "./components/Filter";
-
 import RecordTable from "./components/RecordTable";
 import "./styles/App.css";
 
