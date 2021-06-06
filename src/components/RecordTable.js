@@ -27,7 +27,7 @@ const RecordTable = ({data}) => {
   );
 };
 
-RecordTable.propTypes = {
+RecordTable.propTypes={
   data: PropTypes.array,
 };
 
