@@ -28,7 +28,7 @@ const RecordTable = ({data}) => {
 };
 
 RecordTable.propTypes={
-  data: PropTypes.array,
+  data:PropTypes.array,
 };
 
 export default RecordTable;
