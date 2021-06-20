@@ -26,7 +26,9 @@ describe("The rendition of <Filter>", () => {
 
   test("if clicking the 'Age' radio button fires an event", () => {
     const sortAge = jest.fn();
+    
     const { getByTestId } = render(<Filter sortAge={sortAge} />);
+    
     userEvent.click(getByTestId("age"));
     expect(sortAge).toHaveBeenCalled;
   });
