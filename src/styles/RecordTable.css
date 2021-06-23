@@ -6,21 +6,21 @@ td {
   border-collapse: collapse;
 }
 
-table {
+table{
   width: 100%;
 }
 
-th {
+th{
   padding: 0.6em;
   text-align: left;
   background-color: white;
 }
 
-td {
+td{
   padding-left: 0.6em;
   height: 2em;
 }
 
-tr:nth-child(odd) {
+tr:nth-child(odd){
   background-color: #e6f7ff;
 }
