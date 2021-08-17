@@ -10,6 +10,7 @@ describe("The rendition of <Filter>", () => {
    
     const { getByText } = render(<Filter />);
     const myVar = getByText(/name/);
+    
     expect(myVar).toBeInTheDocument;
  
  });
