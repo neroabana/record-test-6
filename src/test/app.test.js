@@ -1,4 +1,3 @@
-
 import React from "react";
 import { render } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
@@ -9,8 +8,7 @@ describe("The rendition of <Filter>", () => {
   test("if the 'Sort by name' label renders correctly", () => {
     const { getByText } = render(<Filter />);
     const myVar = getByText(/name/);    
-    expect(myVar).toBeInTheDocument;
- 
+    expect(myVar).toBeInTheDocument; 
  });
 
   test("if the 'Sort by age' label renders correctly", () => {
