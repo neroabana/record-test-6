@@ -3,7 +3,6 @@ import {PropTypes} from "prop-types";
 import "../styles/RecordTable.css";
 
 const RecordTable = ({data}) => {
-
   return (
     <>
       <table>
