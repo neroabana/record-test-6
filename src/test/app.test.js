@@ -4,8 +4,7 @@ import userEvent from "@testing-library/user-event";
 import Filter from "../components/Filter";
 import RecordTable from "../components/RecordTable";
 
-describe("The rendition of <Filter>", () => {
-  
+describe("The rendition of <Filter>", () => {  
   test("if the 'Sort by name' label renders correctly", () => {
     const { getByText } = render(<Filter />);
     const myVar = getByText(/name/);    
