@@ -10,20 +10,17 @@ describe("The rendition of <Filter>", () => {
     const myVar = getByText(/name/);    
     expect(myVar).toBeInTheDocument; 
  });
-
   test("if the 'Sort by age' label renders correctly", () => {
     const { getByText } = render(<Filter />);
     const myVar = getByText(/age/);
     expect(myVar).toBeInTheDocument;
   });
-
   test("if clicking the 'Name' radio button fires an event", () => {
     const sortName = jest.fn();
     const { getByTestId } = render(<Filter sortName={sortName} />);
     userEvent.click(getByTestId("name"));
     expect(sortName).toHaveBeenCalled;
   });
-
   test("if clicking the 'Age' radio button fires an event", () => {
     const sortAge = jest.fn();
     
